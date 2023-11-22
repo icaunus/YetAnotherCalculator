@@ -10,7 +10,7 @@ public class Calculator {
         Matcher matcher = pattern.matcher(str);
         List<Float> numbers = new ArrayList<>();
         List<String> operator = new ArrayList<>();
-        Float output = -1.0f;
+        Float output = -1.00f;
         
         while (matcher.find()) {
             numbers.add(Float.parseFloat(matcher.group(1)));
